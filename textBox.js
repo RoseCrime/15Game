@@ -1,3 +1,5 @@
+let shuffleButt
+
 class TextBox {
     constructor(txt, size, color, str) {
         this.color = color
