@@ -20,7 +20,7 @@ function setup() {
 
     setNumbers()
 
-    shuffleButt = new TextBox('Shuffle', 32, color(150, 220, 255), color(255))
+    shuffleButt = new TextBox('Shuffle', 32, color(150, 220, 255), color(120, 150, 255))
 }
 
 
@@ -28,9 +28,9 @@ function draw() {
 
     drawStage()
 
-    dropSnow()
-
     drawHouse()
+
+    dropSnow()
 
     smokeDraw()
 

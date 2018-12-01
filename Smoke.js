@@ -5,11 +5,10 @@ class Smoke {
         this.x = 60
         this.y = 150
         this.size = floor(random(1, 15))
-        this.opacity = 150
     }
     show() {
         noStroke()
-        fill(200, 100)
+        fill(200, 50)
         ellipse(this.x, this.y, this.size)
         return this
     }
