@@ -41,7 +41,7 @@ class TextBox {
             mouseY >= this.y - this.boxHeight / 2
 
         if (this.mouseInArea) {
-            stroke(255)
+            stroke(220, 220, 220)
             line(this.x - this.textWidth / 2, this.y + this.size * 1.15, this.x + this.textWidth / 2, this.y + this.size * 1.15)
         }
         return this
