@@ -20,9 +20,7 @@
             this.x = width / 2 - 200 + this.cell * margBtwNumbs - borderMrj
             this.y = 100 + this.row * margBtwNumbs - borderMrj
 
-
-
-            fill(40)
+            fill(0,0)
             strokeWeight(2)
             stroke(150, 255, 220)
             rect(this.x, this.y, this.size, this.size)
