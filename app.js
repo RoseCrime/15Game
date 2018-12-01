@@ -1,3 +1,12 @@
+let mouseIsClicked = false,
+    shuffleButt,
+    counter = 0,
+    house
+
+const log = val => console.log(val),
+    type = val => log(val),
+    abs = val => Math.abs(val)
+
 function preload() {
     house = loadImage('img/house.png')
 }
@@ -8,7 +17,6 @@ function setup() {
     textAlign(CENTER, CENTER)
     textStyle(ITALIC)
     imageMode(CENTER)
-
 
     setNumbers()
 
