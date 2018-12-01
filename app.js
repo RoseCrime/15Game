@@ -25,6 +25,8 @@ function setup() {
 
 function draw() {
 
+    cursor(ARROW)
+
     drawStage()
 
     drawHouse()

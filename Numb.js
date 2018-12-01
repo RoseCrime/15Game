@@ -44,6 +44,7 @@
 
 
             if (this.mouseInArea && this.number) cursor(HAND)
+            
             return this
         }
         switch () {
