@@ -1,5 +1,4 @@
 let mouseIsClicked = false,
-    numbs = [],
     shuffleButt,
     counter = 0,
     house

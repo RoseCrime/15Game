@@ -10,7 +10,7 @@ function setup() {
     imageMode(CENTER)
 
 
-    for (let i = 1; i <= 16; i++) numbs.push(new Numb(i))
+    setNumbers()
 
     shuffleButt = new TextBox('Shuffle', 32, color(150, 220, 255), color(255))
 }
@@ -25,7 +25,7 @@ function draw() {
     drawHouse()
 
     smokeDraw()
-    
+
     drawNumbers()
 
     shuffleButt.show(width / 2, 550).hover().click(() => numbs = shuffle(numbs))
