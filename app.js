@@ -19,7 +19,7 @@ function setup() {
 
     setNumbers()
 
-    shuffleButt = new TextBox('Shuffle', 32, color(120, 220, 220), color(20, 220, 205))
+    shuffleButt = new TextBox('Shuffle', 32, color(120, 220, 220), color(180, 200, 225))
 }
 
 
