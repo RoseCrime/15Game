@@ -36,15 +36,14 @@
         }
         hover() {
             this.mouseInArea =
-                (mouseX <= (this.x + (this.size / 2))) &&
-                (mouseX >= (this.x - (this.size / 2))) &&
-                (mouseY <= (this.y + (this.size / 2))) &&
-                (mouseY >= (this.y - (this.size / 2)))
-
+                mouseX <= this.x + this.size / 2 &&
+                mouseX >= this.x - this.size / 2 &&
+                mouseY <= this.y + this.size / 2 &&
+                mouseY >= this.y - this.size / 2
 
 
             if (this.mouseInArea && this.number) cursor(HAND)
-            
+
             return this
         }
         switch () {
