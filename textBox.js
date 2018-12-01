@@ -25,6 +25,7 @@ class TextBox {
 
         text(this.text, this.x, this.y)
 
+
         stroke(this.stroke)
         noFill()
         rect(this.x, this.y, this.boxWidth, this.boxHeight)
