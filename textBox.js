@@ -8,7 +8,6 @@ class TextBox {
 
         this.text = txt
         this.textSize = 40
-
     }
     show(x, y) {
         this.x = x
@@ -18,13 +17,11 @@ class TextBox {
         noStroke()
         textSize(this.textSize)
 
-
         this.textWidth = textWidth(this.text)
         this.boxWidth = this.textWidth * 1.2
         this.boxHeight = this.size * 1.75
 
         text(this.text, this.x, this.y)
-
 
         stroke(this.stroke)
         noFill()
@@ -52,6 +49,4 @@ class TextBox {
 
         return this
     }
-
-
 }

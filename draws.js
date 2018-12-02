@@ -8,7 +8,6 @@ const
         noStroke()
         text('Made by RoseCrime', width / 2, 50)
 
-
         //Field
         fill(25)
         strokeWeight(2)
@@ -17,9 +16,12 @@ const
         rect(width / 2, 300, 400, 400)
     },
     drawNumbers = () => {
-        for (let row = 1, element = 0; row < 5; row++)
-            for (let cell = 1; cell < 5; cell++, element++)
-                numbs[element].show(row, cell).hover().switch()
+        numbs.forEach((item, index) => {
+            let row = floor(index / 4 + 1),
+                cell = index % 4 + 1
+
+            item.show(row, cell).hover().switch()
+        })
     },
     drawHouse = () => {
         beginShape();
