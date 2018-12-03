@@ -5,7 +5,7 @@
     }
 
     class Numb {
-        constructor(number, row, cell) {
+        constructor(number) {
             this.size = 80
             number !== 16 ? this.number = number : null
         }
